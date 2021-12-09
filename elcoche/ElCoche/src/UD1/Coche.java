@@ -10,7 +10,7 @@ package UD1;
 public class Coche {
 	Integer cilindrada;
 	String color;
-	Double precio;
+	Double precio = 10000.00;
 	boolean isArrancado;
 
 	void arrancar() {
